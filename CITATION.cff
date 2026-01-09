@@ -7,18 +7,21 @@ authors:
   - given-names: Diego
     family-names: Pereira Stoque
     affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
-  - given-names: Nome2
-    family-names: Sobrenome2
+  - given-names: Fellipe
+    family-names: Gabriel Santiago de Oliveira
     affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
-  - given-names: Nome3
-    family-names: Sobrenome3
+  - given-names: Rafael
+    family-names: Siqueira de Freitas ferreira
     affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
-  - given-names: Nome4
-    family-names: Sobrenome4
+  - given-names: Ana
+    family-names: Laura Caetano Lamonier
     affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
-  - given-names: Nome5
-    family-names: Sobrenome5
-    affiliation: 
+    given-names: Caio
+    family-names: César Alves Santos
+    affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
+  - given-names: Khalil
+    family-names: Elache Ribeiro Rolim
+    affiliation: Escola Estadual Messias Pedreiro
 description: >
   Projeto educativo desenvolvido por estudantes do Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia,
   no contexto de atividades acadêmicas vinculadas à Universidade Federal de Uberlândia (UFU).

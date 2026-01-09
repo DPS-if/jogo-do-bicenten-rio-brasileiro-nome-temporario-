@@ -3,7 +3,13 @@ Licença dos Assets
 Todo o conteúdo visual, sonoro e narrativo contido nesta pasta (sprites, imagens, músicas, efeitos sonoros e textos)
 está licenciado sob a Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-Autores: Diego Pereira Stoque,
+Autores: Diego Pereira Stoque;
+         Fellipe Gabriel Santiago de Oliveira;
+         Rafael Siqueira de Freitas ferreira;
+         Ana Laura Caetano Lamonier;
+         Khalil Elache Ribeiro Rolim;
+         Caio César Alves Santos;
+
 Ano: 2026
 
 Você pode:
