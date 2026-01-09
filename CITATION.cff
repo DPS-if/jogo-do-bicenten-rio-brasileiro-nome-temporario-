@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "jogo do bicentenario brasileiro"
+message: "Se você utilizar este projeto em pesquisas, trabalhos acadêmicos ou atividades educacionais, por favor cite este repositório."
+type: software
+
+authors:
+  - given-names: Diego
+    family-names: Pereira Stoque
+    affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
+  - given-names: Nome2
+    family-names: Sobrenome2
+    affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
+  - given-names: Nome3
+    family-names: Sobrenome3
+    affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
+  - given-names: Nome4
+    family-names: Sobrenome4
+    affiliation: Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia Centro
+  - given-names: Nome5
+    family-names: Sobrenome5
+    affiliation: 
+description: >
+  Projeto educativo desenvolvido por estudantes do Instituto Federal do Triângulo Mineiro (IFTM) – Campus Uberlândia,
+  no contexto de atividades acadêmicas vinculadas à Universidade Federal de Uberlândia (UFU).
+
+version: 0.1.0
+date-released: 2026-01-09
+license: MIT
