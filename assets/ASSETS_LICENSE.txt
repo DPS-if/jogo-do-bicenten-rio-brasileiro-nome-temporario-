@@ -1,0 +1,19 @@
+Licença dos Assets
+
+Todo o conteúdo visual, sonoro e narrativo contido nesta pasta (sprites, imagens, músicas, efeitos sonoros e textos)
+está licenciado sob a Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Autores: Diego Pereira Stoque,
+Ano: 2026
+
+Você pode:
+- Usar
+- Copiar
+- Modificar
+- Distribuir
+
+Desde que:
+- Os créditos aos autores sejam mantidos.
+
+Texto completo da licença:
+https://creativecommons.org/licenses/by/4.0/
