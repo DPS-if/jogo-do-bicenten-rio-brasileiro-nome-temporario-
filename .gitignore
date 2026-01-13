@@ -20,3 +20,6 @@ obj/
 .DS_Store
 Thumbs.db
 /android/
+
+#---linux---
+run_godot.sh
