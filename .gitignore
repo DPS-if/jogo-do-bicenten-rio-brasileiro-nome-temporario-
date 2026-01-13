@@ -1,7 +1,22 @@
-# Godot 4+ specific ignores
-/.godot/
-/bin/
-/obj/
-/.dotnet/
-*.sln
+# --- Godot 4.x ---
+.godot/
+*.tmp
+
+# --- C# / .NET ---
+# Ignorar pastas de compilação (geradas automaticamente)
+bin/
+obj/
+.dotnet/
+
+# NÃO ignore .sln e .csproj (necessários para o projeto C# abrir corretamente)
+# Se você quiser ignorar configurações de IDE:
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- SO e Diversos ---
+.DS_Store
+Thumbs.db
 /android/
