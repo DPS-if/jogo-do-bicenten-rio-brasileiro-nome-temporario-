@@ -1,13 +1,41 @@
-[gd_scene load_steps=41 format=3 uid="uid://rhw6yv8v07fi"]
+[gd_scene load_steps=44 format=3 uid="uid://rhw6yv8v07fi"]
 
 [ext_resource type="Script" uid="uid://bsyvv0jdi5nsm" path="res://CharacterBody2d.cs" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://d2fsqycwoyij7" path="res://icon.svg" id="1_epypp"]
+[ext_resource type="Texture2D" uid="uid://dv4a226xcsuth" path="res://assets/mapa/mapa brasil-1.png.png" id="1_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://bk1q0slr03v6i" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Down-Sheet.png" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://djji6wy6eeelv" path="res://assets/mapa/mapa brasil-2.png.png" id="2_hqns4"]
 [ext_resource type="Texture2D" uid="uid://bui6r4rsxs8bf" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Down-Sheet.png" id="3_rj586"]
+[ext_resource type="Texture2D" uid="uid://7wxlx2j00xy2" path="res://assets/mapa/mapa brasil-3.png.png" id="3_x0ka3"]
 [ext_resource type="Texture2D" uid="uid://bi2w8m4t2jlwv" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Up-Sheet.png" id="4_4d7sh"]
 [ext_resource type="Texture2D" uid="uid://dpfx8a3fsmi1e" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side-Sheet.png" id="5_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://5fslp5cpl74b" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up-Sheet.png" id="7_hqns4"]
 [ext_resource type="Texture2D" uid="uid://bxe2yevruwn0x" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side-Sheet.png" id="8_x0ka3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0h7mo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ir8iy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_hqns4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_x0ka3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_x0ka3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_hqns4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_ir8iy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0h7mo"]
 atlas = ExtResource("3_rj586")
@@ -253,29 +281,31 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0e48y"]
-size = Vector2(16.5, 30)
+size = Vector2(8, 15)
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(459, 220)
-scale = Vector2(3.0859375, 1.5859375)
-texture = ExtResource("1_epypp")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(249, 117)
+sprite_frames = SubResource("SpriteFrames_0h7mo")
+autoplay = "default"
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(-185, -56)
 script = ExtResource("1_0e48y")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
-position = Vector2(472, 221)
+position = Vector2(454, 244)
+scale = Vector2(0.43749973, 0.44444418)
 sprite_frames = SubResource("SpriteFrames_rj586")
 animation = &"andando_baixo"
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(472, 226)
-zoom = Vector2(2, 2)
+position = Vector2(454, 245)
+zoom = Vector2(7, 7)
 limit_enabled = false
 position_smoothing_enabled = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(472, 222)
+position = Vector2(454, 244.5)
 shape = SubResource("RectangleShape2D_0e48y")

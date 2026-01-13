@@ -3,7 +3,7 @@ using System;
 
 public partial class CharacterBody2d : CharacterBody2D
 {
-	[Export] public float VelocidadeAgilidade = 100.0f;
+	[Export] public float VelocidadeAgilidade = 50.0f;
 	
 	private AnimatedSprite2D _animador;
 	private string _ultimaDirecao = "baixo"; // Guarda para onde ele olhou por último
