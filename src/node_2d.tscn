@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=3 uid="uid://rhw6yv8v07fi"]
+[gd_scene load_steps=45 format=3 uid="uid://rhw6yv8v07fi"]
 
 [ext_resource type="Script" uid="uid://bsyvv0jdi5nsm" path="res://CharacterBody2d.cs" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://dv4a226xcsuth" path="res://assets/mapa/mapa brasil-1.png.png" id="1_ir8iy"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://dpfx8a3fsmi1e" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Walk_Base/Walk_Side-Sheet.png" id="5_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://5fslp5cpl74b" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Up-Sheet.png" id="7_hqns4"]
 [ext_resource type="Texture2D" uid="uid://bxe2yevruwn0x" path="res://assets/assets de teste/Pixel Crawler - Free Pack 2.0.4/Pixel Crawler - Free Pack/Entities/Characters/Body_A/Animations/Idle_Base/Idle_Side-Sheet.png" id="8_x0ka3"]
+[ext_resource type="Texture2D" uid="uid://evo5irka44hr" path="res://assets/Menina do portal/New Piskel.png" id="11_hqns4"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0h7mo"]
 animations = [{
@@ -309,3 +310,8 @@ position_smoothing_enabled = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(454, 244.5)
 shape = SubResource("RectangleShape2D_0e48y")
+
+[node name="NewPiskel" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(467, 243)
+scale = Vector2(0.03, 0.03)
+texture = ExtResource("11_hqns4")
