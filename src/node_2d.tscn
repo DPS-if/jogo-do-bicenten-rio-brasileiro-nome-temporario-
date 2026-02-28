@@ -296,6 +296,7 @@ position = Vector2(-185, -56)
 script = ExtResource("1_0e48y")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+visible = false
 position = Vector2(454, 244)
 scale = Vector2(0.43749973, 0.44444418)
 sprite_frames = SubResource("SpriteFrames_rj586")
